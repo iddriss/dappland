@@ -3,9 +3,32 @@
   "description": "A permissionless & trustless hub of comprehensive defi solutions to leverage ZK-Rollup on Starknet's L2",
   "short_description": "The Portal to Starknet",
   "tags": ["DeFi"],
-  "contracts": [],
-  "goerliContracts": [],
-  "audits": [],
+  "contracts": [
+    {
+      "name": "StarkDefi Router",
+      "address": "0x07eeE624919FAE668387D0d34D86d67795e5C919bc994841581144977Ef21c32"
+    },
+    {
+      "name": "StarkDefi Pair Factory",
+      "address": "0x02721f5ab785ae5E13b276ca9d41e859B7b150440A288A7826Ba5E27Dd05E08e"
+    }
+  ],
+  "goerliContracts": [
+    {
+      "name": "StarkDefi Router",
+      "address": "0x063cBC1C8a43A33e914AB85A823416c3f71D4C8f1070880Fa44615d9dE80663d"
+    },
+    {
+      "name": "StarkDefi Pair Factory",
+      "address": "0x01555b4540d0fabd06A066DE7e2e8179461fA837c0Acb614BD16DEA99ED60e40"
+    }
+  ],
+  "audits": [
+    {
+      "name": "Smart Contract Security Audit",
+      "url": "https://github.com/blaize-security/blaize-security-audits/blob/main/s/starkdefi/StarkDeFi-audit-report-v2-[23-Oct-2023].pdf"
+    }
+  ],
   "verified": false,
   "dotw": false,
   "links": {
@@ -21,6 +44,7 @@
   },
   "twitterName": "StarkDefi",
   "teamInfo": {
+    "contactEmail": "info@starkdefi.com",
     "founded": "2022-02-13T08:30:00.000Z",
     "anonymous": false
   },
